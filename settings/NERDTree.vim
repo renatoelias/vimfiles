@@ -2,6 +2,7 @@
 let NERDTreeMinimalUI = 1
 let NERDTreeDirArrows = 1
 let g:NERDTreeWinSize = 30
+let NERDTreeIgnore = ['\.pyc$']
 
-nnoremap <C-\> :NERDTreeToggle<CR>
-inoremap <C-\> <ESC>:NERDTreeToggle<CR>
+nnoremap <leader>nr :NERDTreeToggle<CR>
+inoremap <leader>nr :NERDTreeToggle<CR>

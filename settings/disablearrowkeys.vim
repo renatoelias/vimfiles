@@ -1,1 +1,1 @@
-let g:disableArrowKeys = 1
+let g:disableArrowKeys = 0

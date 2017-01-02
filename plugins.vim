@@ -22,7 +22,7 @@ Plug 'tomtom/tcomment_vim'
 Plug 'airblade/vim-gitgutter'
 Plug 'tpope/vim-endwise'
 Plug 'rstacruz/vim-closer'
-Plug 'ludovicchabant/vim-gutentags'
+" Plug 'ludovicchabant/vim-gutentags'
 Plug 'benekastah/neomake'
 Plug 'jszakmeister/vim-togglecursor'
 
@@ -53,5 +53,10 @@ Plug 'elixir-lang/vim-elixir'
 " Filetypes
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 Plug 'sheerun/vim-polyglot'
+
+Plug 'andviro/flake8-vim'
+Plug 'ctrlpvim/ctrlp.vim', {'on': ['CtrlP', 'CtrlPMixed', 'CtrlPMRU']}
+Plug 'FelikZ/ctrlp-py-matcher'
+Plug 'szw/vim-tags'
 
 call plug#end()

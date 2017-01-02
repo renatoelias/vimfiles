@@ -18,7 +18,7 @@ if has('vim_starting')
 end
 set switchbuf=useopen
 
-set shell=zsh
+set shell=bash
 
 " This makes vim act like all other editors, buffers can
 " exist in the background without being in a window.
