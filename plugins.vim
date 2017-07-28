@@ -57,5 +57,6 @@ Plug 'andviro/flake8-vim'
 Plug 'ctrlpvim/ctrlp.vim', {'on': ['CtrlP', 'CtrlPMixed', 'CtrlPMRU']}
 Plug 'FelikZ/ctrlp-py-matcher'
 Plug 'szw/vim-tags'
+Plug 'StanAngeloff/php.vim'
 
 call plug#end()

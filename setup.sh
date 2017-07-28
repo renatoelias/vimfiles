@@ -23,4 +23,4 @@ function install_eslint_d {
 
 install_eslint_d
 
-`(which nvim || which vim)` +PlugInstall! +qall
+`(which vim || which nvim)` +PlugInstall! +qall
